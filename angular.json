@@ -25,9 +25,13 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,6 +128,10 @@
   },
   "defaultProject": "mergeDemo",
   "cli": {
+<<<<<<< HEAD
     "analytics": "3484847e-bb61-40ff-af2a-3da22a42958e"
+=======
+    "analytics": "9af15d59-93dc-405b-b62e-19443eb6e283"
+>>>>>>> addHeader
   }
 }
